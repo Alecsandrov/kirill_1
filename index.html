@@ -1,1 +1,214 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+
+
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-bpx;
+}
+
+body{
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg,#f5f7fa 0%, #c3cfe2 100%);
+}
+
+header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav{
+  background: linear-gradient(135deg, #07335E , #0a4a7a);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0,2);
+  everflow: hidden;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight:  500;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#post{
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  bax-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  margin-bottom: 30px;
+  border-left: 5px solid #07335E;
+}
+
+#post h3{
+  color: #07335E;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#post i{
+  display: block;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#post p{
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+#post a{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background: linear-gradient(135deg, #07335E, #0a4a7a);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+#price{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px 0;
+  }
+
+.card_price{
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  text-aligh: center;
+  border: 1px solid rgba(7,51,94,0.1);
+}
+
+.card_price img{
+ border-radius: 10px;
+ margin-bottom: 15px;
+ width: 210px;
+ height: 150px;
+ object-fit: cover;
+}
+
+.card_price b{
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.card_price b{
+  display: block;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  color: #07335E;
+}
+
+
+.card_price button{
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #07335E, #0a4a7a);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+ 
+    </style>
+</head>
+<body>
+    <header>
+      <img src="https://i.pinimg.com/1200x/4b/16/fa/4b16fa319d348c09a56a6b9d8ede3f9e.jpg" alt=""  width="90px" height="90px" style="border-radius: 80px; border: 0.5px solid #07335E;">
+      
+      </header>
+   <nav>
+     <ul>
+       <li><a href="#home">Главная</a></li>
+       <li><a href="#post">Статьи</a></li>
+       <li><a href="#price">Товары</a></li>
+       <li><a href="#about">О нас</a></li>
+     </ul>
+ </nav>
+     <section id="post">
+      <h3>CompI</h3>
+   
+      <i>За лучшими ПК только к нам! CompI</i>
+      <p>CompI — это Российско-Украинский интернет-магазин и сервис по сборке ПК, предлагающий удобный онлайн-конфигуратор, широкий выбор новых и б/у комплектующих, а также бесплатную сборку и тестирование перед отправкой. Ключевые преимущества включают экспертную оценку совместимости, гарантию, возможность трейд-ин и быструю доставку, что делает процесс покупки игровых или офисных ПК быстрым и надежным.</p>
+      <a href="https://compx.ua/ru/?srsltid=AfmBOopI4EmnpDrr-oeBfBL2sbrNrXAtQh4cSUZ0lw7eX6hNeRDYe5vV">CompI</a>
+      </section>
+     
+   <br><br>
+   <section id="price">
+   <div class="card_price">
+   <img src="https://i.pinimg.com/736x/c3/65/6d/c3656d621c19b015d4e5752823105272.jpg" alt="Продажа ПК" width="210px" height="auto">
+
+     <p>Кастомный ПК на RTX 5080 с водяной системой охлаждения</p>
+    <b>190.000 рублей</b>
+    <button type="sumbit">Купить</button>
+</div>
+   <div class="card_price">
+  <img src="https://i.pinimg.com/736x/57/6b/56/576b56ff516805295d3e4db2a78566da.jpg" height="210px" width="auto">
+    <p> ПК на RTX 5090 с водяной системой охлаждения</p>
+    <b>250.000 рублей</b>
+    <button type="sumbit">Купить</button>
+</div>
+    <div class="card_price">    
+  <img src="https://i.pinimg.com/736x/db/bb/2a/dbbb2a9e5488888cf19e4b108adc244c.jpg" height="210px" width="auto">
+<p> ПК на RTX 5090 с водяной системой охлаждения</p>
+    <b>215.000 рублей</b>
+    <button type="sumbit">Купить</button>
+  </div>
+     
+  <br><br>
+     
+  <footer id="about">
+  <div class="footer_about">
+  <img src="https://i.pinimg.com/1200x/4b/16/fa/4b16fa319d348c09a56a6b9d8ede3f9e.jpg" alt="логотип" height="90px" width="auto" style="border: 0.5px solid #07335E">
+  <h4>Обратная связь<h4>
+<input type="text" placeholder="Имя">
+<input type="text" placeholder="Почта"> 
+    <button>Отправить</button>
+    </div>   
+   <p>@2026 - Лучшие ПК</p>
+    <a href="https://web.telegram.org/a/"><img src="https://kassa.bifit.com/wiki/images/a/ab/Telegram_%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png" alt="Telegram" style="border-radius: 40px; width: 40px; height: auto"></a> 
+    <a href="https://vk.com/"><img src="https://cdn-icons-png.flaticon.com/512/145/145813.png" alt="VK" style="border-radius: 40px; width: 40px; height: auto"></a> 
+    <a href="https://max.ru/"><img src="https://play-lh.googleusercontent.com/_wSjKixe1Eaa6flCdcsRdAuONdw2zvGv-cdzX-rnjq1ggfjqbCgNAnmvXyHOoDgY4tjLQIFVRXBPaz8hSFd-cg=w240-h480-rw " alt="MAX" style="border-radius: 40px; width: 40px; height: auto"></a> 
+  </footer>
+     
+     </section>
+  
+  
+  
+  
+     </body>
+</html>
+
+
+
+ 
+  
